@@ -4,11 +4,16 @@ import Book from "./Books";
 import Home from "./Homes";
 
 
+
+import Home from "./Homes";
+
+
 export default function Routes() {
     return (
         <Switch>
-            <Route path="/" exact component={Home} />
+
             <Route path="/books" component={Book} />
+
         </Switch>
     );
 }
